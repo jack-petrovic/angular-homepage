@@ -35,7 +35,8 @@ li {
   font-size: 18pt;
   margin-bottom: 15px;
 }
-label, input {
+label,
+input {
   display: block;
 }
 label {
@@ -52,7 +53,22 @@ input {
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: solid .3px;
+  border-bottom: solid 0.3px;
+}
+button.primary {
+  padding: 12px 24px;
+  border: none;
+  background: #8b5cf6;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button.primary:hover {
+  background: #7c3aed;
 }
 @media (max-width: 1024px) {
   .listing-photo {
